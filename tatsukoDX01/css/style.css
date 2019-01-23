@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+html,body{
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+body{
+    overflow: auto!important;
+}
+
+.text-center{
+    text-align: center;
+}
+
+h1{
+    margin:0;
+}
+
+.btn-func{
+	margin-bottom: 20px;
+}
+
+.select{
+    display: block;
+}
+.block-choose{
+    max-width: 480px;
+    margin: auto;
+    padding: 0 10px;
+}
+.block-choose__courseName{
+    margin-bottom: 24px;
+    border: solid 1px #ccc;
+}
+.block-choose__btn{
+    margin-bottom: 48px;
+}
+
+/*モーダル*/
+
+
+#modalWrapper{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:80%;
+    margin: 20px auto;
+    background:transparent;
+}
+
+.modal{
+    box-shadow: none;
+}
+
+#canvas{
+    background: #fff;   
+}
+
+
+.wrapper-login {
+    max-width: 320px;
+    width:100%;
+    margin:0 auto;
+    padding:0 20px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+} 
+
+.sheet_bingo{
+    border:solid 1px #ccc;
+}
+.cell{
+    border-left:solid 1px #ccc;
+}
+
+.cell>div{
+
+    border-bottom: solid 1px #ccc;
+}
+.cell>div:last-child{
+    border-bottom: none;
+}
+
+.gallery >a {
+    display: block;
+    height:100px;
+}
+
+
+.list-title{
+    margin-bottom: 20px;
+    padding:10px;
+}
+
+
+#hit {
+    padding:20px;
+    font-size:2rem;
+}
+
+#app{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 1140px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 0 20px;
+}
+
+.table-item{
+	display: flex;
+	flex-wrap: wrap;
+	width: calc(33.333% - 20px);
+	margin: 0 0 40px;
+	background: rgba(38,166,148,0.7);
+}
+.seat{
+	width: 50%;
+	padding: 16px;
+	font-size: 24px;
+}
+#absent{
+	padding: 0 8px;
+
+}
+
+.logo{
+	width:200px;
+	margin: 0 auto 40px;	
+}
+.text-center{
+	text-align: center;
+}
+.list{
+	max-width: 640px;
+	margin: 0 auto 40px;
+	padding: 0 20px;
+}
+
+.modal-wrapper{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+}
+#checkbox{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+	max-width: 640px;
+	width: 100%;
+	margin: auto;
+	padding: 40px;
+	background-color: #fff;
+
+}
+.modal-wrapper.open{
+	display: block;
+
+}
+.checkbox-inner{
+	display: flex;
+	flex-wrap: wrap;
+}
+.inner{
+
+}
+#checkbox .inner{
+
+}
+.section-title{
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked{
+	position: static;
+    visibility: visible;
+	vertical-align: 4px;
+}
+.checklist{
+	display: block;
+	width:10%;
+	margin: 0 0 24px;
+	color: #333;
+	font-size: 1.4rem;
+}
+.text-center{
+	text-align: center;
+}

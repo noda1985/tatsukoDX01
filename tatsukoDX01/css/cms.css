@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+html,body{
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+body{
+    overflow: auto!important;
+}
+
+.text-center{
+    text-align: center;
+}
+
+h1{
+    margin:0;
+}
+
+
+
+
+/*モーダル*/
+
+
+#modalWrapper{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:80%;
+    margin: 20px auto;
+    background:transparent;
+}
+
+.modal{
+    box-shadow: none;
+}
+
+#canvas{
+    background: #fff;   
+}
+
+
+.wrapper-login {
+    max-width: 320px;
+    width:100%;
+    margin:0 auto;
+    padding:0 20px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+} 
+
+.sheet_bingo{
+    border:solid 1px #ccc;
+}
+.cell{
+    border-left:solid 1px #ccc;
+}
+
+.cell>div{
+
+    border-bottom: solid 1px #ccc;
+}
+.cell>div:last-child{
+    border-bottom: none;
+}
+
+.gallery >a {
+    display: block;
+    height:100px;
+}
+
+
+.list-title{
+    margin-bottom: 20px;
+    padding:10px;
+}
+
+
+#hit {
+    padding:20px;
+    font-size:2rem;
+}
